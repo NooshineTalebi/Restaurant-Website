@@ -15,5 +15,5 @@ document.onclick = function(e){
 
 toggle.onclick = function(){
     toggle.classList.toggle('active');
-    sidebar.classList.sidebar('active');
+    sidebar.classList.toggle('active');
 }

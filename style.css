@@ -62,6 +62,7 @@
     height: 100vh;
     background: #003147;
     transition: 0.5s;
+    z-index: 2;
 }
 #sidebar.active{
     right: 0px;
