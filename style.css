@@ -55,7 +55,7 @@
     transform: translateY(0px) rotate(-45deg);
 }
 #sidebar{
-    position: fixed;
+    position: absolute;
     top: 0;
     right: -300px;
     width: 300px;
