@@ -9,11 +9,11 @@ document.onclick = function(e){
     if(e.target.id !== 'sidebar' && e.target.id !== 'toggle')
     {
         toggle.classList.remove('active');
-        toggle.classList.remove('active');
+        sidebar.classList.remove('active');
     }
 }
 
 toggle.onclick = function(){
     toggle.classList.toggle('active');
-    toggle.classList.toggle('active');
+    sidebar.classList.sidebar('active');
 }
