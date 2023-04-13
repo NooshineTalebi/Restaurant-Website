@@ -29,10 +29,11 @@ menuTeam.addEventListener('click' , () => {
 
 
 const LunchSection = document.querySelector(".lunch-section");
+const [...menuItems] = document.querySelectorAll(".menu-item");
+console.log(menuItems);
 LunchSection.addEventListener("click" , ()=>{
-    const menuItems = document.querySelectorAll(".menu-item");
     menuItems.forEach((menu) => {
-        if(menu.classList.includes(".menu-lunch")){
+        if(menu.classList.contains("menu-lunch")){
             menu.classList.add("active");
         }else{
             menu.classList.add("hidden")
